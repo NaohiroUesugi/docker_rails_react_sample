@@ -6,20 +6,17 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.5.0
+* 起動
+#### 初回(docker変更時)
+docker-compose up
+#### 2回目以降
+docker-compose start
 
-* System dependencies
+### railsコマンド
+docker-compose run web rails `コマンド`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+##### Todo
+sqliteで作成しているがmysqlに変える。
 * ...
 # docker_rails_react
